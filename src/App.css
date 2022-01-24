@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+/* For ant design */
+@import '~antd/dist/antd.css';
+
+/* Header */
+.nav-icon{
+  height: 70px;
+  width: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item{
+  margin-left: 20px;
+  padding: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*Home*/
+.home-img{
+  width: 50vw;
+  height: 80vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.learn-more-btn{
+  margin-top: 20px;
+  display: block;
+  width: 70%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.learn-more-btn:hover{
+  background-color: white;
+  color: #1890FF;
+  border-color: #1890FF;
 }
