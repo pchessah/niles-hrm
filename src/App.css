@@ -81,4 +81,20 @@
   margin-top: -90px;
   z-index: 200;
   margin-left: -100px;
+  border-radius: 50px;
+  height: 30vh;
+}
+
+.about-us-img-low{
+  width:20vw;
+  margin-bottom: -90px;
+  z-index: 200;
+  margin-right: -100px;
+  border-radius: 50px;
+  
+}
+
+.holder{
+  margin-top: -80px;
+  margin-right: -150px;
 }

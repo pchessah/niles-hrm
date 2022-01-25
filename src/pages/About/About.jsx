@@ -1,5 +1,6 @@
 import { Card } from 'antd';
-import aboutUs from '../../assets/niles-home.png'
+import aboutUs from '../../assets/niles-home.png';
+import aboutUsLow from '../../assets/niles-about.png';
 
 /**About Us Page */
 
@@ -9,8 +10,8 @@ function About() {
             <div className="d-flex flex-column justify-content-center align-items-center">
                 <h3 className="text-center display-4 p-3">About</h3>
                 <div >
-                    
-                <img src={aboutUs} alt="about us" className="img-fluid about-us-img" />
+
+                    <img src={aboutUs} alt="about us" className="img-fluid about-us-img" />
 
                     <Card className='about-us-card'>
                         <p>
@@ -22,8 +23,14 @@ function About() {
                         </p>
                     </Card>
 
-                
-                  
+                    <div className="d-flex flex-end justify-content-end holder">
+                        <img src={aboutUsLow} alt="about us" className="img-fluid about-us-img-low" />
+                    </div>
+
+
+
+
+
                 </div>
 
             </div>
