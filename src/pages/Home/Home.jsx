@@ -1,4 +1,3 @@
-import { TransitionGroup } from 'react-transition-group';
 
 import homeImg from '../../assets/home-gif.gif';
 import { Button } from 'antd';
