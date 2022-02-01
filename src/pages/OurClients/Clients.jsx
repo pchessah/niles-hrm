@@ -1,5 +1,4 @@
 import React from 'react';
-import { Carousel } from 'antd';
 import clients from '../../assets/our-clients.png';
 
 function Clients() {
