@@ -1,8 +1,15 @@
-
+import { useNavigate} from 'react-router-dom';
 import homeImg from '../../assets/home-gif.gif';
 import { Button } from 'antd';
 
+
+
+
 function Home() {
+    
+const navigate = useNavigate();
+
+const goToAboutUs = () => navigate('/about');
     return (
         <>
             <div className="d-flex flex-column justify-content-center align-items-center">
@@ -11,7 +18,7 @@ function Home() {
                        
                             <h1 className="text-center display-4">Niles Human Resource Management and Consultancy</h1>
                             <h2 className="display-6">Excelence through people</h2>
-                            <Button type="primary" className="learn-more-btn">Learn More</Button>
+                            <Button onClick={goToAboutUs} type="primary" className="learn-more-btn">Learn More</Button>
                     
 
                     </div>
