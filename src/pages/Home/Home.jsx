@@ -17,7 +17,7 @@ const goToAboutUs = () => navigate('/about');
                     <div className=" d-flex flex-column justify-content-center align-items-center">
                        
                             <h1 className="text-center display-4">Niles Human Resource Management and Consultancy</h1>
-                            <h2 className="display-6">Excelence through people</h2>
+                            <h2 className="display-6">Excellence through people</h2>
                             <Button onClick={goToAboutUs} type="primary" className="learn-more-btn">Learn More</Button>
                     
 
