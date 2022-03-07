@@ -12,6 +12,17 @@
   padding: 5px;
 }
 
+a{
+  color: #5E9F4C !important;
+}
+
+a:hover{
+  color: #5E9F4C !important;
+  font-weight: 900;
+  padding: 5px 10px;
+  background-color: #F0F0F0;
+}
+
 /*Home*/
 .home-img{
   width: 50vw;
@@ -24,12 +35,12 @@
   width: 50%;
   height: 40px;
   background-color: white;
-  color: #1890FF;
-  border-color: #1890FF;
+  color: #5E9F4C;
+  border-color: #5E9F4C;
 }
 
 .learn-more-btn:hover{
-  background-color: #1890FF;
+  background-color: #5E9F4C;
   color: white;
 }
 
@@ -67,7 +78,7 @@
 
 /*About Us Page */
 .about-us-card{
-  border-color: #1890FF;
+  border-color: #5E9F4C;
   border-radius: 20px;
   line-height: 2.6;
   width: 60vw;
